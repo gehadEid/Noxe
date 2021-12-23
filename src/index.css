@@ -1,0 +1,16 @@
+body {
+
+  background-color: rgb(0, 0, 0) !important;
+  color: #ffff !important;
+  /* font-family: 'segoe ui light'; */
+}
+
+.brder
+{
+  height: 0.01rem;
+  background-color: #1d1d1d ;
+  color: #1d1d1d ;
+  margin: 1.2rem 0rem;
+}
+
+

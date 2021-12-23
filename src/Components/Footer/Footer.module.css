@@ -1,0 +1,38 @@
+.content
+{
+    background-color: #0e0d0d !important;
+
+}
+
+.copyRight
+{
+    background-color: #1d1d1d;
+}
+
+
+.icon
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.icon a
+{
+    text-decoration: none;
+}
+
+.icon i
+{
+    color: #f8f9fa;
+    border: 0.15rem solid   !important;
+    width: 3.25rem ;
+    height: 3.25rem ;
+    font-size: 1.25rem ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+

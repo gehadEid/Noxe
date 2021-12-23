@@ -1,0 +1,18 @@
+.mine
+{
+    font-size: 1.2rem !important;
+    background-color:  #0e0d0d;
+}
+.logo
+{
+    font-size: 2rem !important;
+}
+.mine a i
+{
+    color: rgba(255,255,255,.55);
+}
+
+.mine a:hover i 
+{
+    color: #fff;
+}
