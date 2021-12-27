@@ -20,12 +20,12 @@ function App() {
     if (localStorage.getItem("token")) {
       getUserData();
     }
-  });
+    console.log("test from abdo");
+  },[]);
 
   function getUserData() {
     let decoded = jwt_decode(localStorage.getItem("token"));
     setLoginData(decoded);
-    console.log(loginData);
   }
 
   function logout() {

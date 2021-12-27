@@ -25,7 +25,7 @@ export default function Movies() {
     <>
 
       <div className="row py-5 justify-content-center">
-        <div className="col-md-4">
+        <div className="col-md-3">
           <div>
             <div className="brder w-25"></div>
             <h2>

@@ -43,7 +43,6 @@ export default function Login(props) {
   async function submitForm(e) {
     e.preventDefault();
     let validationResult = validateForm();
-    console.log(validationResult);
 
     if (validationResult.error)
     {
@@ -60,7 +59,6 @@ export default function Login(props) {
 
       if (data.message === "success")
       {
-        console.log(data);
         let token = data.token;
         localStorage.setItem("token", token);
         props.getUserData();

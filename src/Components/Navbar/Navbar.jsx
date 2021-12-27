@@ -59,21 +59,12 @@ export default function Navbar({loginData,logout}) {
             </ul>
 
             {loginData!=null?
-             <h3 >Hello :{loginData.first_name +" "+ loginData.last_name }</h3>:"Hello Guys"
+             <h3 >Hello :{loginData.first_name +" "+ loginData.last_name }</h3>:""
             }
             
 
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0  align-items-center ">
-              <a href="http://google.com">
-                <i className={`${style.btnSocial} fab fa-twitter btn`}></i>
-              </a>
-              <a href="http://google.com">
-                <i className={`${style.btnSocial} fab fa-linkedin-in btn `}></i>
-              </a>
-
-              <a href="http://google.com">
-                <i className={`${style.btnSocial} fab fa-facebook  btn`}></i>
-              </a>
+            
 
               {loginData != null ? (
                
